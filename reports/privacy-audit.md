@@ -2,7 +2,7 @@
 
 ## Scope
 
-The public `omarchy-boot` repository contains only the README and ten Markdown reports. Its Git history starts from sanitized documentation; it does not reuse the original reconstruction bundle's repository or history.
+The public `omarchy-boot` repository contains only the README and eleven Markdown reports. Its Git history starts from sanitized documentation; it does not reuse the original reconstruction bundle's repository or history.
 
 Excluded from publication:
 
@@ -16,6 +16,8 @@ Excluded from publication:
 The documentation was checked with Gitleaks v8.30.1 and editorial privacy review. The scanner was obtained from the official Gitleaks release and checked against that release's SHA-256 checksums. The first scan of the original eleven documents found no credential signatures, but editorial review identified personal paths and private provenance that needed removal before publication.
 
 The sanitized files and initial Git history are scanned again before upload. Only the explicitly reviewed Markdown files are staged. Local documentation links are checked, and the published file list and content hashes are compared with the reviewed local files after upload.
+
+The 2026-09-28 update (`updates-2026-09-28.md` plus link changes) was prepared from private notes, not copied from conversations or logs. It received the same Gitleaks v8.30.1 scan and an editorial review. Email addresses, network addresses, account names, session locators, private projects, and personal branding were removed. Remote-access and boot-security items are described only as capabilities; their mechanisms, service names, and exposure paths are intentionally not published.
 
 Technical software preferences, hardware/architecture distinctions, generic configuration paths, and reconstruction limitations remain intentionally public because they are the subject of the instructions. Opaque review labels may remain as historical evidence markers; the underlying private evidence is not provided.
 

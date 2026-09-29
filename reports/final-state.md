@@ -8,6 +8,7 @@ Every exported file and package is enumerated in `profiles/mac.json` or `profile
 
 ## Report index
 
+- [Changes after first publication](updates-2026-09-28.md): keybindings, Herdr, menu, dictation/clipboard, browser, notifications, and agent rules changed from 2026-09-21 to 2026-09-28, plus corrections to this and the other reports.
 - [Evidence coverage](evidence-coverage.md): both-host source counts, time ranges, exhaustive narrative-review method, non-chat evidence and unavailable logs.
 - [Supplemental history](supplemental-history.md): project-local/regression sessions and otherwise-unseen prompt-history requests, with outcomes kept distinct from commands.
 - [Current-state inventory](current-state-inventory.md): every immediate configuration-directory and custom executable decision, package/service inventory and export exclusions.

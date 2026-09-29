@@ -6,6 +6,7 @@ Documentation for reconstructing a customized Omarchy environment on an x86_64 r
 
 ## Start here
 
+- [Changes after first publication (2026-09-21 to 2026-09-28)](reports/updates-2026-09-28.md) — read this first; it corrects older statements
 - [Final state and reconstruction map](reports/final-state.md)
 - [Desktop, keyboard, voice, and terminal behavior](reports/desktop-input-terminal.md)
 - [Agents and development environment](reports/agents-development.md)
