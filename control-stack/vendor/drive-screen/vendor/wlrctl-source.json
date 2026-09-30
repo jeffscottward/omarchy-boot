@@ -1,0 +1,33 @@
+{
+  "repository": "https://git.sr.ht/~brocellous/wlrctl",
+  "tag": "v0.2.2",
+  "commit": "afe60da062ea315b92f2a9857e50b77e0b3a4b7e",
+  "license": "MIT",
+  "sha256": {
+    ".gitignore": "68e52cb3b13d06a8c8680e6e0b3168541a59d093061b2c526880ca20b018fd44",
+    "LICENSE": "8a1fce8a66d959daffb43cc66093ce554d13f7d4ac9c1f26845f16c85a8619ba",
+    "README.md": "4ae9384586d1b2f76b717833870ced02b7942f7de9d2de6ddda9b2f1c08a2bbf",
+    "ascii_raw_keymap.c": "631d6e889240f8d1f065581a30918c0b41f672612d88d375cde5f46de78d7b55",
+    "completions/zsh/_wlrctl": "fd0e9078504f82c4839ff266d4f182c8de0f3480d802a06d0f931779d2593986",
+    "include/common.h": "39bdee21dd4620335e46cb6f1d51e8fa851ce0d4d79dc8e66cf2f49ad851df5a",
+    "include/keyboard.h": "d08f757475d9f9497b27d8f819f2900bb8eb18abd0a76aa81ddc232f60e289ce",
+    "include/output.h": "fa5e4343d9d35dc033ede797cc2ff5152b22fe677988fe0f605954d4704be98d",
+    "include/pointer.h": "08e45f6575c2c5794ea290962757a9a1aaffb9ab282cf5e6bd51df8bbfcfe634",
+    "include/toplevel.h": "bfda75584bacc8b02a7c53f606d6f597cbaac014577e73b6dac918c9bf739d4e",
+    "include/util.h": "1949ae825d4816400c37191ed0fd17e755c0a8249e3fc083fda83af4e2565394",
+    "keyboard.c": "37b2471ab7dc6216b5abc88c32da2b6b16b0feaa1b19de329288faa772a93ffc",
+    "main.c": "33968e49a87a747846c8dbf89e657e3ff348cb16329669cc3b7385658b60ae10",
+    "meson.build": "d4a6122abff94dbdbe68da28ae0091d39ec41fd21fb46e1d0a048d13339a639b",
+    "meson_options.txt": "e930286ad842de0d62cc5a126b32ea33c6c8bf619b10dcef5ca230ac32435aed",
+    "output.c": "cc0327aa771b2305e3226850f61af78427d65ee09d1667df9790ea99a8bae97d",
+    "pointer.c": "7ed995ea5b4fa1fb8cdc79792e65086229f76d1237e6c00a634117cdc7f39be5",
+    "protocol/meson.build": "b56bbce09e63babd1cc938a1e1818c3c7c13a2513c95de06a41daad145c66a5f",
+    "protocol/virtual-keyboard-unstable-v1.xml": "7ad7870003ecd592cae47dc19d277a609b7f18fd7b7be012623cf3225a7294f5",
+    "protocol/wlr-foreign-toplevel-management-unstable-v1.xml": "ea1008781ec4af7a5ceb131914081405c71336fdd7e600103bcc940c15fc741f",
+    "protocol/wlr-output-management-unstable-v1.xml": "6c48be3374601d0c3dd333c0abb8aa615d539810ec07e5d8b69839515736eedd",
+    "protocol/wlr-virtual-pointer-unstable-v1.xml": "3ff6d540be0bc5228195bf072bde42117ea17945a5c2061add5d3cf97d6bb524",
+    "toplevel.c": "48aa281d7302e7ebef1ba3a929d0252cf7d320b5e1c2fe0825360e5dd28458b6",
+    "util.c": "adc029698adca8f9f158904b0d36343f29e22eff9a7dc32358e7bfbca69c46f6",
+    "wlrctl.1.scd": "29fd2acce7563d2cee7b4193459a63b9fa8338110a8b07984319273b26160a6f"
+  }
+}

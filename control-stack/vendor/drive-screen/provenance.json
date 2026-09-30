@@ -1,0 +1,26 @@
+{
+  "upstream_repository": "https://github.com/coleam00/skills",
+  "upstream_commit": "dfaa9105741fc5ba9b16b6a72551cad4bad70415",
+  "upstream_path": ".claude/skills/drive-screen",
+  "license": "MIT Copyright (c) 2026 Cole Medin",
+  "adaptation": "Omarchy Linux Hyprland; Python architecture-neutral; task handover; monitor-only autodrive; screenshot-guarded native absolute pointer movement and unprivileged wlrctl clicks/scroll axes",
+  "pointer_dependency": {
+    "repository": "https://git.sr.ht/~brocellous/wlrctl",
+    "tag": "v0.2.2",
+    "commit": "afe60da062ea315b92f2a9857e50b77e0b3a4b7e",
+    "source_manifest": "vendor/wlrctl-source.json",
+    "build": "python3 scripts/build-pointer.py",
+    "install": "~/.local/libexec/drive-screen/wlrctl",
+    "privileged_packages_required_on_inspected_hosts": []
+  },
+  "upstream_sha256": {
+    "SKILL.md": "9254b4bab490685066b93921ab5c902e4129e4d5e6c4432aacdbc29d511c9720",
+    "references/driving-agents.md": "ee51d5e4ed8e7f0ee885d45ec6f3f5607e9ff9ba8e5640c909107117abff027e",
+    "scripts/_test_autodrive.py": "7a69a53d25baec67ceb52a4bf1597b1f2bbd71fa70f253191281bb3ccdc97b71",
+    "scripts/_test_screenctl.py": "b0e2e027dfd29d825ae52d8ed18f894ae4c0b42f7aed1d4a58752aed1b298f73",
+    "scripts/autodrive.py": "a2e15677c2b3b73d08dc7a44bd1362e192e00a8d40361330683b5b6e5edf327a",
+    "scripts/screenctl.py": "4df98be10630abbaa2f237e85f0c0b0405f6f73a4b39ecfe0a4fb0a8265f9637",
+    "scripts/session_watch.py": "7d0c138b0ec96a3b9cf7e4be75966eacb6bb7bd88ff54e4778a3c4b3148f93fc",
+    "LICENSE": "845c3fa5cb7115cf152e3c686249008586cea58becccb9790c7542cb02437d26"
+  }
+}

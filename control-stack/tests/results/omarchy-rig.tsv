@@ -1,0 +1,35 @@
+H0	host	INFO	omarchy-rig x86_64 omarchy=4.0.4-1 hyprland=0.56.2
+C1	chrome-real-profile	FAIL	user's Google Chrome (default profile) is not running; only headless/automation profiles found. Relay/JEV/Omni/Unclutter stories cannot run until the user opens Chrome
+C2	chrome-extension	PASS	OMP Browser Relay 0.1.0 unpacked:~/.local/share/omp-integrations/omp-browser-relay
+C3	chrome-extension	PASS	JEV adapter (unpacked Jev for Chrome) 1.5.1 unpacked:~/.local/share/omp-integrations/jev-browser/extension
+C4	chrome-extension	PASS	Unclutter 0.3.0 unpacked:~/.local/share/omp-integrations/unclutter
+C5	chrome-extension	FAIL	Omni Reborn not installed in Chrome Default profile
+C6	chrome-extension	PASS	1Password 8.12.37.1 webstore
+R1	relay-reachable:9224	FAIL	relay server up but Chrome extension not connected (HTTP 503)
+R2	relay-own-tab-open-read-close:9224	SKIP	relay not connected
+J1	jev-mcp-tools	PASS	bridge.py exposes 5 jev_* tools
+J2	jev-native-host	PASS	allowlisted adapter id ejehnkkfjojnekhmilppjddkihniafji is loaded
+J3	jev-status	FAIL	{"error": "EXTENSION_DISCONNECTED"}
+J4	jev-tabs	SKIP	adapter disconnected
+O1	os-hyprctl-read	PASS	monitors=1 dpms=True workspaces=1 clients=0 activeClass=none locked=false
+O2	os-omarchy-commands	PASS	456 omarchy-* commands on PATH (omarchy-menu present)
+O3	os-xdg-open	PASS	xdg-open present; https handler=google-chrome.desktop (not invoked)
+O4	os-wayland-cli	PASS	wl-copy wl-paste wtype grim present
+O5	clipboard-roundtrip	MANUAL	not run: the battery never touches the user's clipboard (wl-copy/Wispr history)
+D1	drive-screen-doctor	PASS	prereqs found; pointer available; desktop input untested (needs handover)
+D2	drive-screen-input	MANUAL	screenshot/click/type need a live human handover (chrome://extensions, GTK file picker)
+X1	herdr-pane-create-run-close	PASS	herdr 0.9.1 [~/.local/bin/herdr=0.9.1]; split pane w1:p2 fg=sh; run+wait-output PASS; panes after close=1
+X2	herdr-cleanup	PASS	throwaway session ctlstack-1518455 stopped and deleted
+M1	headless-chrome-temp-profile	PASS	Google Chrome 154.0.8037.57  dumped example.com in a throwaway profile
+M2	omp-native-browser-facade	INFO	facade is an Eval API (browser.open), tested from OMP Eval, not this script; 2 managed headless profile(s) under ~/.omp/run/daemons
+M3	agent-browser-headless	PASS	agent-browser 0.36.0 read example.com title
+W1	omp-wiring	PASS	omp/18.4.4 at ~/.local/share/mise/installs/github-can1357-oh-my-pi/18.4.4/omp; browser-routing extension=yes; mcp=context-mode,grep-app,jev
+A1	omarchy-jev-doctor	PASS	read-only doctor ok; liveControlTested=false (TypeSafe run not executed)
+A2	agent-reach	INFO	Agent Reach v1.5.0 (reader CLI, not a control tool)
+A3	opencli	INFO	CLI not installed
+G1	gws-readonly	PASS	gws 0.22.5: gmail getProfile ok (content not recorded)
+P1	op-cli-present	PASS	op 2.39.0; vault/whoami not queried (would prompt desktop unlock)
+P2	1password-autofill	MANUAL	domain-matched autofill + unlock are human-gated; verified manually 2026-09-28
+W3	context-mode-mcp	INFO	context-mode 1.0.169 via ~/.local/share/mise/installs/node/26.7.0/bin/node ~/.local/share/mise/installs/node/26.7.0/lib/node_modules/context-mode/server.bundle.mjs
+S1	ssh-to-peer	PASS	omarchy-rig -> omarchy-mac BatchMode ok
+# omarchy-rig summary: PASS=20 FAIL=4 SKIP=2 MANUAL=3
