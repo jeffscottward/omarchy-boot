@@ -2,7 +2,7 @@
 
 ## Scope
 
-The public `omarchy-boot` repository contains the README, twelve Markdown reports, and the `control-stack/` section. `control-stack/` is a scoped exception to the documentation-only rule (test scripts and small vendored sources with their licenses); see [its README](../control-stack/README.md) and `control-stack/sources.md`. The Git history starts from sanitized documentation; it does not reuse the original reconstruction bundle's repository or history.
+The public `omarchy-boot` repository contains the README, thirteen Markdown reports, and the `control-stack/` section. `control-stack/` is a scoped exception to the documentation-only rule (test scripts and small vendored sources with their licenses); see [its README](../control-stack/README.md) and `control-stack/sources.md`. The Git history starts from sanitized documentation; it does not reuse the original reconstruction bundle's repository or history.
 
 Excluded from publication:
 
@@ -20,6 +20,8 @@ The sanitized files and initial Git history are scanned again before upload. Onl
 The 2026-09-28 update (`updates-2026-09-28.md` plus link changes) was prepared from private notes, not copied from conversations or logs. It received the same Gitleaks v8.30.1 scan and an editorial review. Email addresses, network addresses, account names, session locators, private projects, and personal branding were removed. Remote-access and boot-security items are described only as capabilities; their mechanisms, service names, and exposure paths are intentionally not published.
 
 The 2026-10-04 update (`updates-2026-10-04.md` plus the README link) was prepared the same way, from private notes, live read-only checks, instruction files, lesson files, and session summaries; no conversation text was copied. Gitleaks v8.30.1 (official release, SHA-256 checked) was run over the changed files, and a pattern scan looked for tokens, keys, email addresses, IP and MAC addresses, absolute home paths, and phone numbers. Editorial review removed account names, an email address, VPN exit and relay identifiers, firewall details, phone-relay pairing and hostnames, upstream account handles, and private project names and work. Remote-access items (streaming host, phone relay, VPN exits, theme-sync SSH route) are described as capabilities; game data and builds are not published.
+
+The 2026-10-08 update (`updates-2026-10-08.md` plus the README link) was prepared the same way, from live read-only checks on both machines, instruction files, and session summaries; no conversation text was copied, except one short quoted fragment that shows the dictation fault. Gitleaks v8.30.1 and the same pattern scan were run over the changed files. Editorial review removed phone names and VPN addresses, SSH key fingerprints, network addresses and ports, an email address, the name of a private automation tool, and details of the user's phone migration. Phone pairing, VPN access, and public-address tests are described as capabilities only.
 
 Technical software preferences, hardware/architecture distinctions, generic configuration paths, and reconstruction limitations remain intentionally public because they are the subject of the instructions. Opaque review labels may remain as historical evidence markers; the underlying private evidence is not provided.
 

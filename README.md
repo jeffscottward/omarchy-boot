@@ -6,7 +6,8 @@ Documentation for reconstructing a customized Omarchy environment on an x86_64 r
 
 ## Start here
 
-- [Changes from 2026-09-28 to 2026-10-04](reports/updates-2026-10-04.md) — read this first; it corrects older statements, including the 2026-09-28 update
+- [Changes from 2026-10-04 to 2026-10-08](reports/updates-2026-10-08.md) — read this first; it corrects older statements, including the earlier updates
+- [Changes from 2026-09-28 to 2026-10-04](reports/updates-2026-10-04.md)
 - [Changes after first publication (2026-09-21 to 2026-09-28)](reports/updates-2026-09-28.md)
 - [Control stack for agent browser, desktop, and terminal control on both machines](control-stack/README.md): the minimal toolset, a user-story matrix, and a test battery with results. This section includes scripts and vendored extension sources as a scoped exception to the documentation-only rule
 - [Final state and reconstruction map](reports/final-state.md)
