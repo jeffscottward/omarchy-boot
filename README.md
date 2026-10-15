@@ -6,7 +6,8 @@ Documentation for reconstructing a customized Omarchy environment on an x86_64 r
 
 ## Start here
 
-- [Changes from 2026-10-08 to 2026-10-13](reports/updates-2026-10-13.md) — read this first; it corrects older statements, including the earlier updates
+- [Changes from 2026-10-13 to 2026-10-15](reports/updates-2026-10-15.md) — read this first; it corrects older statements, including the earlier updates
+- [Changes from 2026-10-08 to 2026-10-13](reports/updates-2026-10-13.md)
 - [Changes from 2026-10-04 to 2026-10-08](reports/updates-2026-10-08.md)
 - [Changes from 2026-09-28 to 2026-10-04](reports/updates-2026-10-04.md)
 - [Changes after first publication (2026-09-21 to 2026-09-28)](reports/updates-2026-09-28.md)
