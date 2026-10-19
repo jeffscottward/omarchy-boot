@@ -103,6 +103,8 @@ Required repository inputs are `steam` `20241231-4`, `FEX-Emu` `2604-1`, `fex-em
 
 LocalSend is the selected transfer application, with the Nautilus extension at `home/.local/share/nautilus-python/extensions/localsend.py` and workspace 5 login placement. Verify discovery and an approved disposable transfer on the target; receiver identity, downloads and trust state are not portable. Multiple interfaces can produce duplicate discovery entries without proving duplicate devices.
 
+**Superseded (2026-10-18):** LocalSend is no longer the preferred route. Copy files between the machines over SSH, and send files to the phone as Discord attachments. See [the 2026-10-18 update](updates-2026-10-18.md#8-corrections-to-earlier-reports).
+
 The workstation's `~/.local/bin/teleport` is a legacy SSH/rsync helper with inbox/status/send/retry semantics, **not** the Teleport infrastructure product. Its pairing configuration and prior jobs/inbox are excluded. It is not an autostart requirement; deliberate fresh configuration is required to use it. Other-OS compatibility work does not justify installing Homebrew on native Linux.
 
 ### Voice, utilities and plugins
