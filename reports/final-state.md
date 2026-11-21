@@ -1,5 +1,7 @@
 # Final state and reconstruction map
 
+> **Update 2026-11-20:** The [2026-11-20 update](updates-2026-11-20.md) supersedes this page where they differ. The MacBook laptop profile here describes the Omarchy Mac build (4.0.4-mac.1), which is no longer supported; the laptop will be reinstalled with the Omarchy Apple Silicon edition (restore plan in that update, section 5). Tool versions here are older than the versions recorded in that update.
+
 ## What this repository represents
 
 The target is the **current intended Omarchy experience**, reconciled against available historical evidence, not a replay of every past command. Two profiles are necessary: Apple-Silicon Mac and x86_64 rig differ in hardware, voice input, installed applications, runtime versions and service state.

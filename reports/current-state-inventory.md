@@ -1,5 +1,7 @@
 # Current state inventory
 
+> **Update 2026-11-20:** The [2026-11-20 update](updates-2026-11-20.md) supersedes this page where they differ. The MacBook laptop profile here describes the Omarchy Mac build (4.0.4-mac.1), which is no longer supported; the laptop will be reinstalled with the Omarchy Apple Silicon edition (restore plan in that update, section 5). Tool versions here are older than the versions recorded in that update.
+
 This is a **reference inventory derived from an earlier read-only capture**, not a live host/service map. It describes managed reconstruction inputs and exclusion policies, not every application profile found on a source computer. A captured component is not automatically intended for restoration, and hardware identities cannot be cloned.
 
 **Laptop** denotes the Apple Silicon/Asahi aarch64 profile; **workstation** denotes the x86_64/NVIDIA profile. `laptop-host`, `workstation-host` and optional `other-os-host` are **example role aliases**, not observed hostnames. The separate local bundle used `mac` and `rig` as profile/path labels. References to its payload, manifests, recipes and installer describe that earlier reconstruction; those assets are **not included in this documentation-only repository**.
