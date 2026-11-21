@@ -6,7 +6,8 @@ Documentation for reconstructing a customized Omarchy environment on an x86_64 r
 
 ## Start here
 
-- [Changes from 2026-10-15 to 2026-10-18](reports/updates-2026-10-18.md) — read this first; it corrects older statements, including the earlier updates (FIRSTMATE dashboard, Discord bot UX, reminders, self-healing harness, trading engines on a VPS)
+- [Changes from 2026-10-18 to 2026-11-20](reports/updates-2026-11-20.md) — read this first; it corrects older statements (packages, MPTCP off, 1Password stream override) and has the Mac reinstall plan for Omarchy Apple Silicon
+- [Changes from 2026-10-15 to 2026-10-18](reports/updates-2026-10-18.md) — corrects older statements, including the earlier updates (FIRSTMATE dashboard, Discord bot UX, reminders, self-healing harness, trading engines on a VPS)
 - [Changes from 2026-10-13 to 2026-10-15](reports/updates-2026-10-15.md) — restart rules partly superseded by the 2026-10-18 update
 - [Changes from 2026-10-08 to 2026-10-13](reports/updates-2026-10-13.md)
 - [Changes from 2026-10-04 to 2026-10-08](reports/updates-2026-10-08.md)
